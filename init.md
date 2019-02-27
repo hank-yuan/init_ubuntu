@@ -160,3 +160,28 @@ apt install yarn
 ## 9.下载工具
 
 curl , wget, aria2, axel, amule, webtorrent, bitTorrent, utorrent, rtorrent
+
+## 10. 定时任务
+
+### 1. 检查 crontab 服务是否安装
+
+`crontab -l`
+
+如果显示 ‘no crontab for root’ 或者 显示当前的任务列表 或者 不报错 那说明已经安装，
+
+如果没有安装 cron 服务
+Contos
+`yum -y install vixie-cron crontab`
+
+ubuntu
+
+`apt-get install cron`
+
+### 2. 编辑任务
+
+`crontab -e `选择编辑器后进入
+
+增加一行如：
+
+`0 0 * * 4 /root/go.sh`
+
