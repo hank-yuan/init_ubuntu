@@ -161,9 +161,11 @@ apt install yarn
 
 curl , wget, aria2, axel, amule, webtorrent, bitTorrent, utorrent, rtorrent
 
-## 10. 定时任务
+## 10任务管理
 
-### 1. 检查 crontab 服务是否安装
+### 1.定时任务
+
+#### 1. 检查 crontab 服务是否安装
 
 `crontab -l`
 
@@ -177,7 +179,7 @@ ubuntu
 
 `apt-get install cron`
 
-### 2. 编辑任务
+#### 2. 编辑任务
 
 `crontab -e `选择编辑器后进入
 
@@ -185,3 +187,10 @@ ubuntu
 
 `0 0 * * 4 /root/go.sh`
 
+### 2.系统进程管理
+
+**TODO** service XXX status
+
+systemctl start XXX
+
+使用`service docker start`实际上是执行了`/bin/systemctl start docker.service`命令
