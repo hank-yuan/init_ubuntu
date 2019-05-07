@@ -1,8 +1,8 @@
 # <center>袁航</center>
 
-* :phone:  18530001170                                 :e-mail:  pippppo@163.com                         QQ:speech_balloon: 809876390
+* :phone:  18530001170 &nbsp;&nbsp;&nbsp; :e-mail:  pippppo@163.com &nbsp;&nbsp;&nbsp; QQ:speech_balloon: 809876390
 
-* 男:man:                  :birthday: 1992                :mortar_board:本科                  工作年限：3年
+* 男:man:      &nbsp;&nbsp;&nbsp; :birthday: 1992     &nbsp;&nbsp;&nbsp;      :mortar_board:本科 &nbsp;&nbsp;&nbsp;  工作年限：3年
 
 * 技术博客：http://blog.hunk.ink                  Github ：http://github.com/easychen
 
